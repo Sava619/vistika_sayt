@@ -1,20 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Моя визитка</title>
-  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .social-icon {
+      width: 50px;
+      height: 50px;
+      margin: 0 10px;
+    }
+  </style>
+  <title>Беседа Семён</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Беседа Семён</h1>
-    <div class="links">
-      <a href="https://vk.com">VK</a>
-      <a href="https://telegram.org">Telegram</a>
-      <a href="https://github.com">GitHub</a>
-      <p> sdadasd</p>
+
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Беседа Семён</h1>
+      <p class="lead">
+        <a href="https://vk.com/id420617649" target="_blank">
+          <img src="/img/vk.png" alt="VK" class="social-icon">
+        </a>
+        <a href="https://t.me/the_mum" target="_blank">
+          <img src="/img/tg.png" alt="Telegram" class="social-icon">
+        </a>
+        <a href="https://github.com/Sava619" target="_blank">
+          <img src="/img/gh.png" alt="GitHub" class="social-icon">
+        </a>
+      </p>
     </div>
-  </div>
-  <div class="rain"></div>
+  </header>
+
+  <section class="about py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Обо мне</h2>
+      <p class="lead">
+      
+        
+        Привет! Я Беседа Семён, студент Дальневосточного федерального университета (ДВФУ) с увлечением в области прикладной математике и информатике . В данный момент я обучаюсь в учебной группе Б9122-01.03.02сп2, где осваиваю современные технологии и погружаюсь в мир компьютерных наук.</p>
+    </div>
+  </section>
+
+  <section class="skills bg-light py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Мои умения</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Фронтенд-разработка</h5>
+              <p class="card-text">Опыт создания интерфейсов с использованием HTML, CSS и JavaScript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Полностековая разработка</h5>
+              <p class="card-text">Работа как с фронтенд-, так и с бэкенд-технологиями для создания полноценных веб-приложений.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Оптимизация производительности</h5>
+              <p class="card-text">Специализация на оптимизации веб-приложений для достижения высокой производительности.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p class="mb-0">Свяжитесь со мной: semabeseda@mail.ru</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
